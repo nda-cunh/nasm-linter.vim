@@ -9,13 +9,15 @@ A nasm-linter plugin for vim9
 
 # How Install
 
-### for any vim9
+- ### SupraVim
+
+```bash
+suprapack install plugin-nasm-linter
+```
+
+- ### for any vim
 ```
 # download the nasminette.vim
 mkdir -p $HOME/.vim/plugin
 cp nasminette.vim $HOME/.vim/plugin/
 ```
-
-### SupraVim
-
-`suprapack install plugin-nasm-linter`

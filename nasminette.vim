@@ -64,4 +64,4 @@ def DisplayNasmErrorMsg()
 	endfor
 enddef
 
-autocmd CursorMoved *.s,*.asm DisplayNasmErrorMsg()
+autocmd CursorMoved *.s,*.asm,*.nasm DisplayNasmErrorMsg()
